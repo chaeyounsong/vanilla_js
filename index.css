@@ -5,22 +5,36 @@
     box-sizing : border-box;
 }
 
+body{
+    color : #34495e;
+}
 
 .clock-container{
 
-    color : #34495e;  
+    color : inherit;
     display : flex;
     justify-content : center;
     align-items: center;
     text-align : center;
     font-weight : 500;
+    font-size : 100px;
+    margin-top : 350px;
+    margin-bottom : 50px;
     
 }
 
+.question{
+    font-size : 50px;
+    text-align: center;
+}
+
 .user-info{
+
+    color : inherit;
     display : flex;
     justify-content: center;
     align-items: center;
+    font-size : 100px;
 
 }
 
