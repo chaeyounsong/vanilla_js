@@ -29,10 +29,6 @@ body{
     text-align: center;
 }
 
-input:focus {
-    outline:none;
-}
-
 .user-info{
 
     color : inherit;
@@ -52,6 +48,15 @@ input:focus {
     justify-content: center;
     align-items: center;
     font-size : 50px;
+}
+
+li{
+    color : inherit;
+    display : block;
+    justify-content: center;
+    align-items: center;
+    font-size : 50px;
+    margin-bottom : 10px;
 }
 
 .form,
