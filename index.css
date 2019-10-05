@@ -42,6 +42,10 @@ body{
 
 }
 
+.user-info:focus {
+    outline : none;
+}
+
 .user-todo{
 
     color : inherit;
@@ -50,6 +54,11 @@ body{
     align-items: center;
     font-size : 50px;
 }
+
+.user-todo:focus {
+    outline : none;
+}
+
 
 li{
     color : inherit;
